@@ -1,12 +1,14 @@
 const text = document.querySelector(".my-email");
 let emailText = document.getElementById('email-address')
 let github = document.getElementById('github-add')
+// let linkin = document.getElementById('linkin-add')
 // console.log('email', emailText)
 text.addEventListener("mouseover", function () {
   console.log('clicked me')
   console.log('email func', emailText)
   emailText.innerHTML = "alex92335126@gmail.com"
   github.innerHTML = "https://github.com/Alex92335126"
+  // linkin.innerHTML ="www.linkin/alex"
   // document.getElementsByClassName('email-address')[0] = "alex92335126@gmail.com"
   // text.style.color = "blue";
   // text.innerHTML = "alex92335126@gmail.com";
